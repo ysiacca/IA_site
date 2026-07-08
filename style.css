@@ -599,6 +599,11 @@ footer {
   background:rgba(0,72,50,0.18);
   transform:translateY(-1px);
 }
+.folder-link-container {
+  display:flex;
+  justify-content:flex-end;
+  margin-bottom:1rem;
+}
 .ppt-slider-embed {
   margin:1rem auto;
   border-radius:24px;
