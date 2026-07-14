@@ -679,12 +679,27 @@ footer {
   border-radius:0 0 18px 18px;
 }
 .accordion-content.open {
-  max-height:400px;
+  max-height:800px;
   padding:1rem 1.2rem 1.2rem;
+  min-height:100px;
 }
 .accordion-content p {
   margin:0;
   line-height:1.7;
+}
+.accordion-content h3 {
+  margin:1rem 0 0.5rem 0;
+  font-size:1.1rem;
+  color:var(--verde-uaemex);
+}
+.accordion-content ul {
+  margin:0.5rem 0;
+  padding-left:1.5rem;
+  list-style:disc;
+}
+.accordion-content li {
+  margin-bottom:0.5rem;
+  line-height:1.6;
 }
 .slides-fullscreen-modal {
   display:none;

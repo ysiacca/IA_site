@@ -117,59 +117,156 @@
         </div>
       </div>
       <div id="pagina-tema2" class="pagina-tema">
-          <div class="inicio-card" style="text-align:center; padding:3rem;">
-            <div style="font-size:5rem; color:var(--gjs-t-color-secondary); margin-bottom:1rem;">🚧</div>
-            <h2 style="font-size:2rem; color:var(--verde-uaemex); margin-bottom:0.75rem;">Página en construcción</h2>
-            <p style="max-width:540px; margin:0 auto 1.5rem; color:#414141; line-height:1.75;">Estamos preparando contenido especializado para esta sesión. Pronto tendrás herramientas, ejercicios y materiales prácticos para continuar con el desarrollo del módulo.</p>
-            <div style="display:flex; justify-content:center; gap:1rem; flex-wrap:wrap;">
-              <span class="nav-btn-principal" style="background:#f4f7f5; color:var(--verde-uaemex); border:1px dashed var(--verde-uaemex);">Próximamente</span>
-              <span class="nav-btn-principal" style="background:var(--oro-uaemex); color:#fff;">Mantente atento</span>
+        <div class="inicio-card">
+          <div class="tema1-header">
+            <div>
+              <h2>Sesión 2: Vibe Coding en IA Studio de Google</h2>
+              <p class="texto-completo">Revisa la presentación con los contenidos temáticos del tema de "Power BI y Visualización de Datos" y el material de apoyo para la segunda parte del reto de la semana.</p>
+
+              <!-- Boton: Material de apoyo -->
+              <div class="folder-link-container">
+                <a class="folder-link" href="https://drive.google.com/drive/u/0/folders/17gFzdMhS1gKjv2ZTqB8HvF4Ems-QDXhU" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-folder-open"></i>
+                  Material de apoyo
+                </a>
+              </div>
+
             </div>
+          </div>
+
+          <!-- Presentación de slides -->
+          <div class="ppt-slider-embed">
+            <button class="btn-fullscreen-slides" type="button" onclick="openSlidesFullscreen2()" title="Ver en pantalla completa">
+              <i class="fas fa-expand"></i>
+            </button>
+            <iframe class="slides-frame" src="https://docs.google.com/presentation/d/1UKso7UypN0ng8D0d9crifWg_VAtCfEc-/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+
+          <div class="slides-fullscreen-modal" id="slidesFullscreenModal2">
+            <button class="btn-close-fullscreen" type="button" onclick="closeSlidesFullscreen2()" title="Cerrar">
+              <i class="fas fa-times"></i>
+            </button>
+            <iframe class="slides-fullscreen-iframe" src="https://docs.google.com/presentation/d/1UKso7UypN0ng8D0d9crifWg_VAtCfEc-/embed?start=false&loop=false&delayms=3000" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+          </div>
+
+          <button class="accordion-toggle" id="actividadToggle2" type="button" aria-expanded="false">🏆 RETO FINAL: Módulo de Vibe Coding para Peritos</button>
+          <div class="accordion-content" id="actividadContent2">
+            <p>¡Muchas felicidades por haber llegado hasta este punto del diplomado! Para acreditar con éxito el módulo de "Introducción al Vibe Coding para Peritos", deberás realizar y enviar las siguientes actividades prácticas:</p>
+            
+            <h3>📋 Entregables y Puntuación</h3>
+            <ul>
+              <li><strong>Calculadora Ross-Heidecke (Versión Ejecutiva)</strong> | 40 Puntos
+                <p>La aplicación debe estar completamente terminada y publicada en tu repositorio de GitHub.</p>
+              </li>
+              <li><strong>Aplicación ValuTrack</strong> | 60 Puntos
+                <p>La aplicación debe completarse en su totalidad, siguiendo cada una de las fases indicadas en el manual del curso.</p>
+              </li>
+            </ul>
+            
+            <h3>📥 Forma de Entrega</h3>
+            <p>Deberás consolidar tu trabajo en un único documento de texto (Word o PDF) que incluya:</p>
+            <ul>
+              <li><strong>Portada formal:</strong> Con tus datos completos y los del diplomado.</li>
+              <li><strong>Evidencias de los proyectos:</strong> Por cada una de las dos aplicaciones deberás indicar:
+                <ul>
+                  <li>La URL de las dos aplicaciones: GitHub y IA Studio.</li>
+                  <li>Capturas de pantalla (impresiones de pantalla) legibles que demuestren el funcionamiento final de cada aplicación.</li>
+                </ul>
+              </li>
+            </ul>
+            
+            <h3>📅 Fechas y Medio de Envío</h3>
+            <p><strong>Fecha máxima de entrega:</strong> Martes 21 de Julio a las 24:00 hrs (Medianoche, hora CDMX).</p>
+            <p><strong>Enviar a:</strong> diplomadoia@duck.com</p>
+            <p><strong>Asunto del correo requerido:</strong> Reto Final Vibe Coding - [Tu Nombre Completo]</p>
+            <br>
+            <p>💡 <strong>Nota importante:</strong> Antes de adjuntar tu documento, por favor verifica que los enlaces de tus aplicaciones funcionen correctamente de forma pública para asegurar una evaluación sin contratiempos. ¡Mucho éxito en tu cierre de módulo!</p>
+          </div>
+
+          <!-- Encuesta de Satisfacción -->
+          <div class="encuesta-section" style="margin-top: 2rem; padding: 1.5rem; background: #f8faf9; border-radius: 20px; border-left: 4px solid var(--oro-uaemex);">
+            <h3 style="font-size: 1.2rem; color: var(--verde-uaemex); margin-bottom: 1rem;">📝 Encuesta de Satisfacción M2 y M3</h3>
+            <p style="margin-bottom: 1rem; line-height: 1.6;">Tu opinión es muy importante para nosotros. Por favor, completa la encuesta de satisfacción para los Módulos 2 y 3.</p>
+            <a href="https://forms.office.com/r/9v2KQtMQBR" target="_blank" rel="noopener noreferrer" class="folder-link" style="display: inline-flex; align-items: center; gap: 0.65rem; padding: 0.8rem 1.5rem; border-radius: 999px; background: var(--verde-uaemex); color: #fff; font-weight: 700; text-decoration: none; transition: background 0.2s, transform 0.2s;">
+              <i class="fas fa-external-link-alt"></i>
+              Abrir Encuesta
+            </a>
           </div>
         </div>
       </div>
+      </div>
     </div>
     <script>
-      const navLinks = document.querySelectorAll('[data-page]');
-      function showPage(page) {
-        document.querySelectorAll('.pagina-inicio, .pagina-tema').forEach(el => el.classList.remove('active-page'));
-        document.querySelectorAll('[data-page]').forEach(link => link.classList.remove('active'));
-        const target = document.getElementById('pagina-' + page);
-        if (target) target.classList.add('active-page');
-        const activeLink = document.querySelector(`[data-page="${page}"]`);
-        if (activeLink) activeLink.classList.add('active');
-      }
-      navLinks.forEach(link => {
-        link.addEventListener('click', e => {
-          e.preventDefault();
-          showPage(link.dataset.page);
-        });
-      });
-
-      const actividadToggle = document.getElementById('actividadToggle');
-      const actividadContent = document.getElementById('actividadContent');
-      actividadToggle.addEventListener('click', () => {
-        actividadContent.classList.toggle('open');
-        actividadToggle.setAttribute('aria-expanded', actividadContent.classList.contains('open'));
-      });
-
-      function openSlidesFullscreen() {
-        document.getElementById('slidesFullscreenModal').classList.add('active');
-        document.body.style.overflow = 'hidden';
-      }
-
-      function closeSlidesFullscreen() {
-        document.getElementById('slidesFullscreenModal').classList.remove('active');
-        document.body.style.overflow = 'auto';
-      }
-
-      document.getElementById('slidesFullscreenModal').addEventListener('click', function(e) {
-        if (e.target === this) {
-          closeSlidesFullscreen();
+      document.addEventListener('DOMContentLoaded', function() {
+        const navLinks = document.querySelectorAll('[data-page]');
+        function showPage(page) {
+          document.querySelectorAll('.pagina-inicio, .pagina-tema').forEach(el => el.classList.remove('active-page'));
+          document.querySelectorAll('[data-page]').forEach(link => link.classList.remove('active'));
+          const target = document.getElementById('pagina-' + page);
+          if (target) target.classList.add('active-page');
+          const activeLink = document.querySelector(`[data-page="${page}"]`);
+          if (activeLink) activeLink.classList.add('active');
         }
-      });
+        navLinks.forEach(link => {
+          link.addEventListener('click', e => {
+            e.preventDefault();
+            showPage(link.dataset.page);
+          });
+        });
 
-      showPage('inicio');
+        const actividadToggle = document.getElementById('actividadToggle');
+        const actividadContent = document.getElementById('actividadContent');
+        if (actividadToggle && actividadContent) {
+          actividadToggle.addEventListener('click', () => {
+            actividadContent.classList.toggle('open');
+            actividadToggle.setAttribute('aria-expanded', actividadContent.classList.contains('open'));
+          });
+        }
+
+        function openSlidesFullscreen() {
+          document.getElementById('slidesFullscreenModal').classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeSlidesFullscreen() {
+          document.getElementById('slidesFullscreenModal').classList.remove('active');
+          document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('slidesFullscreenModal').addEventListener('click', function(e) {
+          if (e.target === this) {
+            closeSlidesFullscreen();
+          }
+        });
+
+        // Funciones para Sesión 2
+        const actividadToggle2 = document.getElementById('actividadToggle2');
+        const actividadContent2 = document.getElementById('actividadContent2');
+        if (actividadToggle2 && actividadContent2) {
+          actividadToggle2.addEventListener('click', () => {
+            actividadContent2.classList.toggle('open');
+            actividadToggle2.setAttribute('aria-expanded', actividadContent2.classList.contains('open'));
+          });
+        }
+
+        function openSlidesFullscreen2() {
+          document.getElementById('slidesFullscreenModal2').classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeSlidesFullscreen2() {
+          document.getElementById('slidesFullscreenModal2').classList.remove('active');
+          document.body.style.overflow = 'auto';
+        }
+
+        document.getElementById('slidesFullscreenModal2').addEventListener('click', function(e) {
+          if (e.target === this) {
+            closeSlidesFullscreen2();
+          }
+        });
+
+        showPage('inicio');
+      });
     </script>
   </body>
 </html>
